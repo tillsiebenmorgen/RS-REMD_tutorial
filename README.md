@@ -20,7 +20,9 @@ https://doi.org/10.1021/acs.jcim.0c00853
 
 Scripts are written in python 2.7 (for Amber Users)
 
+#### Example_preparation
 
+Following these steps you can set up a RS-REMD simulation
 
 To perform a setup of the groupfile: 
 ```python prepare_files_rs.py```
@@ -32,7 +34,7 @@ To start the simulation:
 ```source rs.run```
 
 
-**Details about lj.py (python lj.py -help):**
+**lj.py (python lj.py -help):**
 
 *parm.top* = input topology file that you have created in advance of your system
 
@@ -51,6 +53,18 @@ To start the simulation:
 *-o* = outputfile name of the generated replicas
 
 
+#### Calc_free_energy
+
+From generated trajectories we can now calculate free energies
+
+
+`python reevaluate_trajs_for_biases.py `
+
+`python mbar_freeEnergies.py`
+
+
+
+
 **Anaconda python installation:**
 
 If your python installation (from ambertools) does not work or you would like to use your anaconda python version
@@ -58,3 +72,7 @@ If your python installation (from ambertools) does not work or you would like to
 conda install -c conda-forge mdtraj
 conda install -c ambermd ambertools
 ```
+
+For the `pymbar` installation (in order to calculate free energies) you can use pip
+`pip install pymbar`
+

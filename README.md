@@ -1,6 +1,6 @@
 ## Tutorial for RS-REMD
 
-#Tutorial to perform RS-REMD simulations as introduced in the following articles:
+###### Tutorial to perform RS-REMD simulations as introduced in the following articles:
 
 **Prediction of protein–protein complexes using replica exchange with repulsive scaling**
 

@@ -58,9 +58,11 @@ To start the simulation:
 From generated trajectories we can now calculate free energies
 
 
-```python reevaluate_trajs_for_biases.py 
+```
+python reevaluate_trajs_for_biases.py 
 
-python mbar_freeEnergies.py```
+python mbar_freeEnergies.py
+```
 
 
 

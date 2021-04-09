@@ -24,14 +24,17 @@ Scripts are written in python 2.7 (for Amber Users)
 
 Following these steps you can set up a RS-REMD simulation
 
-To perform a setup of the groupfile: 
-```python prepare_files_rs.py```
+Perform a setup of the groupfile, modify the Lennard-Jones parameters and start the simulation:  
 
-To modify the Lennard-Jones parameters: 
-```python lj.py parm.top 4 -d 0.00 0.1 0.2 0.5 -e 1.00 0.95 0.90 0.80 -c heated.rst -r :1-66 -l :67-123 -hMassRepartitioning -o system.top | tee lj.log```
 
-To start the simulation: 
-```source rs.run```
+```
+python prepare_files_rs.py
+python lj.py parm.top 4 -d 0.00 0.1 0.2 0.5 -e 1.00 0.95 0.90 0.80 -c heated.rst -r :1-66 -l :67-123 -hMassRepartitioning -o system.top | tee lj.log
+source rs.run
+```
+
+
+
 
 
 **lj.py (python lj.py -help):**

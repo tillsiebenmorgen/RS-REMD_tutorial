@@ -19,7 +19,7 @@ Scripts are written in python 2.7 (for Amber Users)
 
 
 Details about lj.py (python lj.py -help):
-
+------------ | -------------
 parm.top | input topology file that you have created in advance of your system
 
 4 | Number of replicas that you want to use, in our case 4; for proper systems between 8 and 16

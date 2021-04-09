@@ -1,13 +1,22 @@
-# Tutorial for RS-REMD
+## Tutorial for RS-REMD
 
-Please cite the following articles:
+#Tutorial to perform RS-REMD simulations as introduced in the following articles:
+
+**Prediction of protein–protein complexes using replica exchange with repulsive scaling**
+
+**Till Siebenmorgen** till.siebenmorgen@tum.de, **Michael Engelhard**, **Martin Zacharias**
 
 https://doi.org/10.1002/jcc.26187
+
+---
+
+**Efficient Refinement and Free Energy Scoring of Predicted Protein–Protein Complexes Using Replica Exchange with Repulsive Scaling**
+
+**Till Siebenmorgen**, **Martin Zacharias**
 
 https://doi.org/10.1021/acs.jcim.0c00853
 
 ---
-**Till Siebenmorgen** till.siebenmorgen@tum.de
 
 Scripts are written in python 2.7 (for Amber Users)
 
@@ -23,7 +32,7 @@ To start the simulation:
 ```source rs.run```
 
 
-Details about lj.py (python lj.py -help):
+**Details about lj.py (python lj.py -help):**
 
 *parm.top* = input topology file that you have created in advance of your system
 
@@ -42,7 +51,7 @@ Details about lj.py (python lj.py -help):
 *-o* = outputfile name of the generated replicas
 
 
-Anaconda python installation:
+**Anaconda python installation:**
 
 If your python installation (from ambertools) does not work or you would like to use your anaconda python version
 ```

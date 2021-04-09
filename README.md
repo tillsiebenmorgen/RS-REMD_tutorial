@@ -1,7 +1,7 @@
 # Tutorial for RS-REMD
 
 ### Tutorial to perform RS-REMD simulations as introduced in the following articles:
-
+---
 **Prediction of protein–protein complexes using replica exchange with repulsive scaling**
 
 **Till Siebenmorgen** till.siebenmorgen@tum.de, **Michael Engelhard**, **Martin Zacharias**
@@ -42,7 +42,7 @@ To start the simulation:
 
 *-e* = epsilon parameter for LJ scaling of the individual replica;  for my systems with 16 replicas: `-e 1.00 0.99 0.98 0.97 0.96 0.94 0.92 0.90 0.88 0.86 0.84 0.82 0.80 0.78 0.76 0.74`
 
-*-c* = heated restart file, that you have created
+*-c* = heated restart file
 
 *-r* = receptor mask, specifies the receptor residues whose interaction should be scaled
 

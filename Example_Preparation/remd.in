@@ -1,0 +1,40 @@
+
+&cntrl
+  irest=1, !read velocities (restart simulation)
+  ntx=5, !Coordinates and velocities will be read from inpcrd file
+  ioutfm=1 !netcdf format for trajectories
+  
+  nstlim=250, !number of MD steps between each exchange attempt
+  numexchg=100, !number of exchange attempts, total simulation length will be numexch * nstlim * dt
+  dt=0.004,
+
+  dielc=1.0,
+
+  ntt=3, !temperature scaling
+  gamma_ln=2,
+  temp0=300, !Reference temperature at which the system is to be kept
+
+  ntc=2, !SHAKE. bonds involving hydrogen are constrained
+  ntf=2, !Force evaluation. bond interactions involving H-atoms omitted (use with NTC=2)
+  nscm=0, !removal of translational and rotational center-of-mass motion at regular intervals
+  cut=999.0, !nonbonded cutoff
+
+  ntp=0, !no pressure control
+  iwrap=0, !coordinates written to the restart and trajectory files will be "wrapped" into a primary box
+  ntb=0,
+  ioutfm=1,
+  ntxo=2,
+
+  igb = 8,
+  rgbmax=25.0,
+
+
+  ntpr=1250, !Every ntpr steps, energy information will be printed
+  ntwx=1250, !Every ntwx steps, the coordinates will be written to the mdcrd file
+  ntwr=10000, !Every ntwr steps during dynamics, the “restrt” file will be written
+
+  ntr=0, !dont use restraints (with restraintmask), 1 if want to use
+  nmropt=0, !Restraints
+&end
+
+&eof

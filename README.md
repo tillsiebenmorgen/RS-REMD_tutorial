@@ -18,7 +18,7 @@ https://doi.org/10.1021/acs.jcim.0c00853
 
 ---
 
-Scripts are written in python 2.7 (for Amber Users)
+Scripts are written in python 2.7 (for Amber users)
 
 ### Example_preparation
 

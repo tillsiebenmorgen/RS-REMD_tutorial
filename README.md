@@ -1,6 +1,6 @@
 # Tutorial for RS-REMD
 
-### Tutorial to perform RS-REMD simulations as introduced in the following articles:
+## Tutorial to perform RS-REMD simulations as introduced in the following articles:
 ---
 **Prediction of protein–protein complexes using replica exchange with repulsive scaling**
 
@@ -20,7 +20,7 @@ https://doi.org/10.1021/acs.jcim.0c00853
 
 Scripts are written in python 2.7 (for Amber Users)
 
-#### Example_preparation
+### Example_preparation
 
 Following these steps you can set up a RS-REMD simulation
 
@@ -56,9 +56,9 @@ source rs.run
 *-o* = outputfile name of the generated replicas
 
 
-#### Calc_free_energy
+### Calc_free_energy
 
-From generated trajectories we can now calculate free energies
+From generated trajectories we can now calculate free energy differences. The simulations were performed in explicit solvent and the water molecues were stripped.   
 
 
 ```
@@ -78,6 +78,6 @@ conda install -c conda-forge mdtraj
 conda install -c ambermd ambertools
 ```
 
-For the `pymbar` installation (in order to calculate free energies) you can use pip
+For the `pymbar` installation (in order to calculate free energies) you can use
 `pip install pymbar`
 

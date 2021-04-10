@@ -53,6 +53,8 @@ source rs.run
 
 *-l* = ligand mask, specifies the receptor residues whose interaction should be scaled
 
+*-hMassRepartitioning* = if specified performs hMassRepartitioning on the topology files
+
 *-o* = outputfile name of the generated replicas
 
 

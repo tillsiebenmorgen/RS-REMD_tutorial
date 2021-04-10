@@ -70,9 +70,8 @@ python mbar_freeEnergies.py
 
 
 
-**Anaconda python installation:**
-
-If your python installation (from ambertools) does not work or you would like to use your anaconda python version
+### Installation
+You might be able to use your python installation from ambertools. You can also install the necessary packages using anaconda
 ```
 conda install -c conda-forge mdtraj
 conda install -c ambermd ambertools
